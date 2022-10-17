@@ -6,7 +6,7 @@ import { About } from "./pages/About"
 import { Navbar } from "./components/Navbar"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 
-function App() {
+function App(): JSX.Element {
   return (
     <ShoppingCartProvider>
       <Navbar />
